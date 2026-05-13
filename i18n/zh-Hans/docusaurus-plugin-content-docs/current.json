@@ -1,0 +1,74 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.📖 入门指南": {
+    "message": "📖 入门指南",
+    "description": "The label for category '📖 入门指南' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🧬 DNA 组学": {
+    "message": "🧬 DNA 组学",
+    "description": "The label for category '🧬 DNA 组学' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🔬 细胞组学": {
+    "message": "🔬 细胞组学",
+    "description": "The label for category '🔬 细胞组学' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🌌 空间组学": {
+    "message": "🌌 空间组学",
+    "description": "The label for category '🌌 空间组学' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🧪 蛋白质组学": {
+    "message": "🧪 蛋白质组学",
+    "description": "The label for category '🧪 蛋白质组学' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.📊 数据规范": {
+    "message": "📊 数据规范",
+    "description": "The label for category '📊 数据规范' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🔗 API 文档": {
+    "message": "🔗 API 文档",
+    "description": "The label for category '🔗 API 文档' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.doc.数据格式规范": {
+    "message": "数据格式规范",
+    "description": "The label for the doc item '数据格式规范' in sidebar 'docsSidebar', linking to the doc data-format/overview"
+  },
+  "sidebar.docsSidebar.doc.元数据标准": {
+    "message": "元数据标准",
+    "description": "The label for the doc item '元数据标准' in sidebar 'docsSidebar', linking to the doc data-format/metadata"
+  },
+  "sidebar.docsSidebar.doc.API 概述": {
+    "message": "API 概述",
+    "description": "The label for the doc item 'API 概述' in sidebar 'docsSidebar', linking to the doc api/overview"
+  },
+  "sidebar.docsSidebar.doc.端点列表": {
+    "message": "端点列表",
+    "description": "The label for the doc item '端点列表' in sidebar 'docsSidebar', linking to the doc api/endpoints"
+  },
+  "sidebar.docsSidebar.category.🧪 DNA/RNA 提取": {
+    "message": "🧪 DNA/RNA 提取",
+    "description": "The label for category '🧪 DNA/RNA 提取' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🔬 核酸检测": {
+    "message": "🔬 核酸检测",
+    "description": "The label for category '🔬 核酸检测' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.📚 文库构建": {
+    "message": "📚 文库构建",
+    "description": "The label for category '📚 文库构建' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🧬 测序技术": {
+    "message": "🧬 测序技术",
+    "description": "The label for category '🧬 测序技术' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.📊 标准数据分析": {
+    "message": "📊 标准数据分析",
+    "description": "The label for category '📊 标准数据分析' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.📖 单细胞知识库": {
+    "message": "📖 单细胞知识库",
+    "description": "The label for category '📖 单细胞知识库' in sidebar 'docsSidebar'"
+  }
+}

@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Multi-omics database',
+  tagline: 'DNA omics, Cell omics, STOMics and Proteomics',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -27,17 +27,15 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'omics-community', // Usually your GitHub org/user name.
+  projectName: 'omics-database', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // Internationalization configuration
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans', 'en'],
   },
 
   presets: [
@@ -46,6 +44,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/', //
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -83,21 +82,31 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Multi-omics DB',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Multi-omics Database Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '📚 文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/analysis',
+            label: '📊 数据分析',
+            position: 'left',
+          },
+          {to: '/blog', label: '📝 博客', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,46 +116,55 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '导航',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'DNA 组学',
+                to: '/DNA-omics/overview',
+              },
+              {
+                label: '细胞组学',
+                to: '/Cell-omics/overview',
+              },
+              {
+                label: '空间组学',
+                to: '/STOmics/overview',
+              },
+              {
+                label: '蛋白质组学',
+                to: '/Pro-omics/overview',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '功能',
             items: [
+
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '数据分析',
+                to: '/analysis',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'API 文档',
+                to: '/api/overview',
               },
             ],
           },
           {
-            title: 'More',
+            title: '资源',
             items: [
               {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Multi-omics Database. 使用 Docusaurus 构建。`,
       },
       prism: {
         theme: prismThemes.github,

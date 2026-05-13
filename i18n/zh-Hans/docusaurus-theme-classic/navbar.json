@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Multi-omics DB",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Multi-omics Database Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.📚 文档": {
+    "message": "📚 文档",
+    "description": "Navbar item with label 📚 文档"
+  },
+  "item.label.🔍 酶数据浏览器": {
+    "message": "🔍 酶数据浏览器",
+    "description": "Navbar item with label 🔍 酶数据浏览器"
+  },
+  "item.label.🧬 组织数据浏览器": {
+    "message": "🧬 组织数据浏览器",
+    "description": "Navbar item with label 🧬 组织数据浏览器"
+  },
+  "item.label.📊 数据分析": {
+    "message": "📊 数据分析",
+    "description": "Navbar item with label 📊 数据分析"
+  },
+  "item.label.📝 博客": {
+    "message": "📝 博客",
+    "description": "Navbar item with label 📝 博客"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

@@ -15,6 +15,19 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Sidebar level colors - Light mode */
+  --sidebar-level1-bg: #eef4ff;
+  --sidebar-level1-border: #4f6af5;
+  --sidebar-level1-hover: #e0e9ff;
+
+  --sidebar-level2-bg: #f0f9f0;
+  --sidebar-level2-border: #4caf50;
+  --sidebar-level2-hover: #e3f5e3;
+
+  --sidebar-level3-bg: #fff8ee;
+  --sidebar-level3-border: #ff9800;
+  --sidebar-level3-hover: #fff0d9;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,4 +40,80 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Sidebar level colors - Dark mode */
+  --sidebar-level1-bg: #1a2744;
+  --sidebar-level1-border: #5c7cfa;
+  --sidebar-level1-hover: #223460;
+
+  --sidebar-level2-bg: #1a331a;
+  --sidebar-level2-border: #66bb6a;
+  --sidebar-level2-hover: #224422;
+
+  --sidebar-level3-bg: #3a2e1a;
+  --sidebar-level3-border: #ffa726;
+  --sidebar-level3-hover: #4a3a22;
+}
+
+/* ========================================
+   Sidebar Level Background Colors
+   ======================================== */
+
+/* Level 1 - Top-level categories (e.g., 🧬 DNA 组学, 🔬 细胞组学) */
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible,
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > .menu__link {
+  background-color: var(--sidebar-level1-bg) !important;
+  border-left: 4px solid var(--sidebar-level1-border);
+  font-weight: 600;
+}
+
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible:hover,
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible:hover > .menu__link {
+  background-color: var(--sidebar-level1-hover) !important;
+}
+
+/* Level 2 - Direct items under level 1 (e.g., 概述, 📖 单细胞知识库) */
+.theme-doc-sidebar-menu .menu__list .theme-doc-sidebar-item-link-level-2 > .menu__link,
+.theme-doc-sidebar-menu .menu__list .theme-doc-sidebar-item-category-level-2 > .menu__list-item-collapsible,
+.theme-doc-sidebar-menu .menu__list .theme-doc-sidebar-item-category-level-2 > .menu__list-item-collapsible > .menu__link {
+  background-color: var(--sidebar-level2-bg) !important;
+  border-left: 3px solid var(--sidebar-level2-border);
+}
+
+.theme-doc-sidebar-menu .menu__list .theme-doc-sidebar-item-link-level-2 > .menu__link:hover,
+.theme-doc-sidebar-menu .menu__list .theme-doc-sidebar-item-category-level-2 > .menu__list-item-collapsible:hover,
+.theme-doc-sidebar-menu .menu__list .theme-doc-sidebar-item-category-level-2 > .menu__list-item-collapsible:hover > .menu__link {
+  background-color: var(--sidebar-level2-hover) !important;
+}
+
+/* Level 3 - Nested items under level 2 (e.g., enzyme_database, tissue_database) */
+.theme-doc-sidebar-menu .menu__list .menu__list .theme-doc-sidebar-item-link-level-3 > .menu__link {
+  background-color: var(--sidebar-level3-bg) !important;
+  border-left: 2px solid var(--sidebar-level3-border);
+}
+
+.theme-doc-sidebar-menu .menu__list .menu__list .theme-doc-sidebar-item-link-level-3 > .menu__link:hover {
+  background-color: var(--sidebar-level3-hover) !important;
+}
+
+/* Ensure active/selected items still show clearly */
+.menu__link--active {
+  font-weight: 700 !important;
+}
+
+/* Add subtle margin between top-level categories for better visual separation */
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category-level-1 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Clean padding for all sidebar items */
+.theme-doc-sidebar-menu .menu__list-item {
+  border-radius: 4px;
+}
+
+.theme-doc-sidebar-menu .menu__link {
+  border-radius: 4px;
 }

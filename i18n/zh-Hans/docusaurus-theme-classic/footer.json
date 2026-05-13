@@ -1,0 +1,58 @@
+{
+  "link.title.导航": {
+    "message": "导航",
+    "description": "The title of the footer links column with title=导航 in the footer"
+  },
+  "link.title.功能": {
+    "message": "功能",
+    "description": "The title of the footer links column with title=功能 in the footer"
+  },
+  "link.title.资源": {
+    "message": "资源",
+    "description": "The title of the footer links column with title=资源 in the footer"
+  },
+  "link.item.label.DNA 组学": {
+    "message": "DNA 组学",
+    "description": "The label of footer link with label=DNA 组学 linking to /01_DNA-omics/"
+  },
+  "link.item.label.细胞组学": {
+    "message": "细胞组学",
+    "description": "The label of footer link with label=细胞组学 linking to /02_Cell-omics/"
+  },
+  "link.item.label.空间组学": {
+    "message": "空间组学",
+    "description": "The label of footer link with label=空间组学 linking to /03_STOmics/"
+  },
+  "link.item.label.蛋白质组学": {
+    "message": "蛋白质组学",
+    "description": "The label of footer link with label=蛋白质组学 linking to /04_Pro-omics/"
+  },
+  "link.item.label.酶数据浏览器": {
+    "message": "酶数据浏览器",
+    "description": "The label of footer link with label=酶数据浏览器 linking to /explorer"
+  },
+  "link.item.label.组织数据浏览器": {
+    "message": "组织数据浏览器",
+    "description": "The label of footer link with label=组织数据浏览器 linking to /tissue-explorer"
+  },
+  "link.item.label.数据分析": {
+    "message": "数据分析",
+    "description": "The label of footer link with label=数据分析 linking to /analysis"
+  },
+  "link.item.label.API 文档": {
+    "message": "API 文档",
+    "description": "The label of footer link with label=API 文档 linking to /api-docs"
+  },
+  "link.item.label.博客": {
+    "message": "博客",
+    "description": "The label of footer link with label=博客 linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Multi-omics Database. 使用 Docusaurus 构建。",
+    "description": "The footer copyright"
+  }
+}
