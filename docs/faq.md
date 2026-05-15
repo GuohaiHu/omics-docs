@@ -139,12 +139,12 @@ sidebar_position: 4
 - 原始文件
 
 ### Q: 如何访问 API？
-参见 [API 文档](../api/overview)
+参见 [API 文档](/api/overview)
 
 ### Q: 数据更新频率？
 核心数据库：月更新
 实验数据：实时更新
-详见 [数据标准](../data-standards)
+详见 [数据标准](/data-standards)
 
 ---
 
@@ -152,7 +152,7 @@ sidebar_position: 4
 
 - [文献列表](#)
 - [工具推荐](#)
-- [数据库链接](../DNA-omics/overview#数据库资源)
+- [数据库链接](/DNA-omics/overview#数据库资源)
 - [联系方式](#)
 
 ---

@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://guohaihu.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/omics-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'omics-community', // Usually your GitHub org/user name.
-  projectName: 'omics-database', // Usually your repo name.
+  organizationName: 'GuohaiHu', // Usually your GitHub org/user name.
+  projectName: 'omics-docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 
@@ -36,6 +36,20 @@ const config = {
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans', 'en'],
+    localeConfigs: {
+      'zh-Hans': {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-Hans',
+        calendar: 'gregory',
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en',
+        calendar: 'gregory',
+      },
+    },
   },
 
   presets: [

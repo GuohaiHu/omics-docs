@@ -6,7 +6,7 @@ displayed_sidebar: docsSidebar
 
 # Welcome to the Multi-omics wiki by Guohai
 
-<img src="/img/cover.png" alt="主页大图" width="100%" style={{ borderRadius: '15px', marginBottom: '30px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }} />
+<img src={require('@site/static/img/cover.png').default} alt="主页大图" width="100%" style={{ borderRadius: '15px', marginBottom: '30px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)' }} />
 
 <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap', marginTop: '20px' }}>
   <a className="button button--primary button--lg" href="/DNA-omics/overview"> DNA omics</a>
