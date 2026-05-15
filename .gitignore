@@ -1,7 +1,8 @@
 # Dependencies
 /node_modules
-/Users/guohaihu/omics-docs/docs
-/Users/guohaihu/omics-docs/static/img
+/docs
+/static/img
+
 # Production
 /build
 
@@ -19,5 +20,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
 
